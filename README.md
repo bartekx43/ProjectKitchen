@@ -8,10 +8,8 @@ Recipes are also suggested by the recommender system based on other users' ratin
 This application is created with Django 3.0.2.
 
 ## Setup
-To use the application run following commands:
+To use the application run following commands in the project's directory:
 ```
-git clone https://github.com/bartekx43/ProjectKitchen.git
-cd ProjectKitchen
 sudo pip install -r requirements.txt
 python3 manage.py migrate
 python3 manage.py loaddata initial_data
